@@ -3,6 +3,7 @@ Autonomous Insurance Claims Processing Agent
 Overview
 
 This project implements a lightweight autonomous agent that processes First Notice of Loss documents.
+
 The system extracts key insurance fields, validates data completeness, applies deterministic routing rules, and produces a structured JSON decision output aligned with real world insurance workflows.
 
 Architecture
@@ -44,10 +45,11 @@ Setup and Execution
 Output
 
 The program prints a JSON object to the console containing:
-Extracted insurance fields
-List of missing mandatory fields
-Recommended routing decision
-Clear reasoning for the decision
+
+Extracted insurance fields,
+List of missing mandatory fields,
+Recommended routing decision,
+Clear reasoning for the decision.
 
 Design Notes
 
